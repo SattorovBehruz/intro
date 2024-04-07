@@ -23,20 +23,24 @@
                 then $20/mo. thereafter
               </span>
             </h2>
-            <form class="site-form" action="#" method="PUSH">
-              <input class="site-input" type="text" placeholder="Full Name" required>
-  
-              <input class="site-input" type="text" placeholder="Last Name" required>
-  
-              <input class="site-input" type="text" placeholder="Email Address" required>
-  
-              <input class="site-input" type="text" placeholder="Password" required>
-
-              <button class="form-button">CLAIM YOUR FREE TRIAL</button>
-
+            <form class="site-form" action="https://echo.htmlacademy.ru/courses" method="POST">
+              <input class="site-input" type="text" placeholder="Name" 
+              name="user_name" required>
+              
+              <input class="site-input" type="text" placeholder="Last Name"
+              name="user_lastname" required>
+              
+              <input class="site-input" type="text" placeholder="Email Address"
+              name="user_email_address" required>
+              
+              <input class="site-input" type="text" placeholder="Password"
+              name="user_password" required>
+              
+              <button class="form-button" type="submit">CLAIM YOUR FREE TRIAL</button>
+              
               <p class="form-text">
                 By clicking the button, you are agreeing to our 
-                <span class="form-span">Terms and Services</span>
+                <a class="form-link" href="#">Terms and Services</a>
               </p>
             </form>
           </div>

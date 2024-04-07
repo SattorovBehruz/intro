@@ -124,8 +124,8 @@ body {
   line-height: 26px;
   letter-spacing: 1px;
   border-radius: 5px;
+  border: none;
   background-color: #38cc8b;
-  box-shadow: 0px -4px 0px 0px #00000017 ;
 }
 
 .form-text {
@@ -137,8 +137,9 @@ body {
   line-height: 26px;
 }
 
-.form-span {
+.form-link {
   color: #ff7979;
   font-weight: 700;
+  text-decoration-line: none;
   line-height: 26px;
 }
